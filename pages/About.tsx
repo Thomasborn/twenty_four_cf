@@ -53,7 +53,7 @@ export const About: React.FC = () => {
                {[
                  { name: "Barista Budi", role: "Head of Caffeine", quote: "Sleep is for the weak.", img: "https://images.unsplash.com/photo-1583336137694-2453e925b682?q=80&w=400&auto=format&fit=crop" },
                  { name: "Chef Sari", role: "Noodle Master", quote: "Spicy level 5 is weak.", img: "https://images.unsplash.com/photo-1589571894960-20bbe2815d09?q=80&w=400&auto=format&fit=crop" },
-                 { name: "Admin Rina", role: "Social Manager", quote: "Tag us or else.", img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400&auto=format&fit=crop" },
+                 { name: "Bang Edu", role: "Social Manager", quote: "Tag us or else.", img: "" },
                ].map((member, i) => (
                  <div key={i} className="bg-white border-4 border-black p-4 pb-8 transform hover:-translate-y-2 transition-transform shadow-hard">
                     <div className="aspect-square bg-gray-200 mb-4 border-2 border-black overflow-hidden">

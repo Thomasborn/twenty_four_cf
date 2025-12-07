@@ -3,13 +3,13 @@ import { Sticker } from '../components/ui/Sticker';
 import { MenuItem } from '../types';
 
 const MENU_ITEMS: MenuItem[] = [
-  { id: '1', name: 'Es Kopi 24', description: 'Our signature blend. Keeps you up until tomorrow.', price: '28k', category: 'coffee', isFeatured: true, image: '/images/menu/pexels-chevanon-312418.jpg' },
-  { id: '2', name: 'Black Mamba', description: 'Double espresso, water, ice. No sugar, no mercy.', price: '25k', category: 'coffee', image: '/images/menu/pexels-pixabay-2135.jpg' },
-  { id: '3', name: 'Bakmi 24 Special', description: 'Chicken, mushroom, chili oil. The midnight savior.', price: '35k', category: 'bakmi', isSpicy: true, isFeatured: true, image: '/images/menu/indonesia-6033061_1280.jpg' },
+  { id: '1', name: 'Es Kopi 24', description: 'Our signature blend. Keeps you up until tomorrow.', price: '28k', category: 'coffee', isFeatured: true, image: '/images/menu/black.png' },
+  { id: '2', name: 'Black Mamba', description: 'Double espresso, water, ice. No sugar, no mercy.', price: '25k', category: 'coffee', image: '/images/menu/mamba.png' },
+  { id: '3', name: 'Bakmi 24 Special', description: 'Chicken, mushroom, chili oil. The midnight savior.', price: '35k', category: 'bakmi', isSpicy: true, isFeatured: true, image: '/images/menu/bakmi.png' },
   { id: '4', name: 'Yamin Manis', description: 'Sweet soy sauce noodles. Comfort in a bowl.', price: '32k', category: 'bakmi', image: '/images/menu/yamin.jpg' },
   { id: '5', name: 'Nasi Gila', description: 'Crazy rice for crazy times. Sausages, meatballs, spice.', price: '30k', category: 'nasi', image: '/images/menu/nasi.png' },
   { id: '6', name: 'Matcha Latte', description: 'Green tea for peace of mind amidst the chaos.', price: '32k', category: 'non-coffee', image: '/images/menu/matcha.jpg' },
-  { id: '7', name: 'Chili Oil Wonton', description: 'Spicy dumplings. Warning: Highly Addictive.', price: '28k', category: 'snacks', isSpicy: true, image: '/images/menu/indonesia-6033061_1280.jpg' },
+  { id: '7', name: 'Chili Oil Wonton', description: 'Spicy dumplings. Warning: Highly Addictive.', price: '28k', category: 'snacks', isSpicy: true, image: '/images/menu/bakmi.png' },
   { id: '8', name: 'Kaya Toast', description: 'Classic snack. Good at 7 AM or 7 PM.', price: '20k', category: 'snacks', image: '/images/menu/Kaya-Toast.jpeg' },
 ];
 
