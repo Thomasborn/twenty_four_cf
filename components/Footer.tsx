@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="bg-black text-white text-center py-4 font-mono text-xs uppercase tracking-widest">
-        © {new Date().getFullYear()} Twenty Four Coffee. Design Concept inspired by Oatly. <br className="md:hidden" />
+        © {new Date().getFullYear()} Twenty Four Coffee. Design Concept inspired by Thom Odi Devsign. <br className="md:hidden" />
         <span className="hidden md:inline"> | </span>
         <a href="https://github.com/Thomasborn/Thomasborn" target="_blank" rel="noreferrer" className="hover:text-brand-gold hover:underline">Dev by Thomasborn</a>
       </div>
