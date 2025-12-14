@@ -33,6 +33,45 @@ export const Menu: React.FC = () => {
         <p className="font-marker text-2xl md:text-3xl text-brand-dark rotate-1 mt-2">That never clocks out.</p>
       </div>
 
+      {/* Menu Board Display */}
+      <div className="max-w-6xl mx-auto px-4 mb-16">
+        <div className="relative group">
+          {/* Polaroid-style frame */}
+          <div className="bg-white p-4 md:p-6 border-4 border-black shadow-hard-lg transform hover:-translate-y-2 transition-all duration-300 rotate-1 hover:rotate-0">
+            <div className="border-2 border-gray-200 overflow-hidden">
+              <img
+                src="/images/menu-board.png"
+                alt="Twenty Four Coffee Menu Board"
+                className="w-full h-auto transform group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            {/* Caption */}
+            <div className="mt-4 text-center">
+              <p className="font-marker text-xl md:text-2xl text-brand-dark">
+                Our Complete Menu Board
+              </p>
+              <p className="font-sans text-sm text-gray-600 mt-1">
+                Swipe or scroll to see all items below ↓
+              </p>
+            </div>
+          </div>
+
+          {/* Decorative stickers */}
+          <Sticker
+            text="Fresh!"
+            color="red"
+            className="absolute -top-4 -left-4 md:-top-6 md:-left-6 w-16 h-16 md:w-20 md:h-20 text-xs -rotate-12"
+            animate
+          />
+          <Sticker
+            text="Must Try!"
+            color="gold"
+            className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-16 h-16 md:w-20 md:h-20 text-xs rotate-12"
+            animate
+          />
+        </div>
+      </div>
+
       {/* Filters */}
       <div className="sticky top-20 z-20 bg-brand-light/95 backdrop-blur-sm py-4 border-b-4 border-black mb-12">
         <div className="flex flex-nowrap overflow-x-auto md:flex-wrap justify-start md:justify-center gap-3 px-4 max-w-7xl mx-auto no-scrollbar pb-2 md:pb-0">
